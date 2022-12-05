@@ -21,10 +21,8 @@ int main(){
     if(s%3!=0)
         printf("%d", s);
     else{
-        for(int i=0; i<3; i++){
-            if(s%3!=i){
-                res=min(res, s+ost[i]);
-            }
+        for(int i=1; i<3; i++){
+            res=min(res, s+ost[i]);
         }
         printf("%d", res);
     }
