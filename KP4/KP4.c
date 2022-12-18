@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
-#include <stdlib.h>ХОХЛЫ ПИДАРАСЫ
+#include <stdlib.h>
 
 double func(double x);
 double f1(double x);
